@@ -1,4 +1,15 @@
-# Steps
+# Chinese-Pinyin Transcriber with N-gram Language Model
+
+A non-interactive pinyin-to-hanzi converter for Chinese with a 93% character 
+accuracy. 
+
+## What does this do?
+
+Chinese typists use pinyin pronunciation ("ni hao") to type Chinese sentences
+("你好"). This project converts from pinyin to Chinese without requiring
+user intervention. 
+
+## Installation and usage
 
 1. Run `node gen-hanzi.js` to consume `dict-zi.js` and output
    `pinyin-to-hanzi.js`, a mapping from pinyin w/o accents to the
